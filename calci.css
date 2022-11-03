@@ -1,0 +1,50 @@
+
+.head{
+
+  color: #EEEDDE;
+
+}
+
+.container{
+
+  margin:auto;height:100vh;max-width:250px;background-color: #5B7DB1;
+  min-height:400px;
+  display:flex;justify-content:center;align-items:center;
+
+
+
+}
+body{background-color: #5B7DB1;font-family:serif;}
+.btn
+{
+  width:55px;height:55px;background-color: #EEEDDE;font-weight:bold;
+}
+.btn:hover{ background-color: #B8FFF9;}
+.displaybar
+{max-width:210px;background-color: #EEEDDE;
+max-height:40px; font-size: 20px; border-radius: 5%; box-shadow: 2px 2px 2px #EEEDDE,  -2px -2px 2px #EEEDDE;}
+.btn{
+  border-radius:100%;
+  font-size:15px;
+}
+.side{display:block;color: #EEEDDE;width:200px;}
+@media all and (max-width:250px) 
+{
+  .btn
+{
+  max-width:45px;max-height:45px;
+}
+.displaybar
+{max-width:150px;
+height:30px; font-size:15px;}
+}
+@media all and (max-width:210px) 
+{
+  .btn
+{
+  width:40px;height:40px;
+}
+.displaybar
+{max-width:150px;
+height:25px; font-size:13px;}
+}
